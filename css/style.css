@@ -4,3 +4,11 @@ header {
     left: 0;
     width: 100%;
 }
+
+.logo__img {
+    width: 184px;
+    height: 160px;
+    position: relative;
+    left: 10%;
+    top: 51px;
+}
