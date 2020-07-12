@@ -2,13 +2,28 @@ header {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%; }
+  width: 100%;
+  display: inline; }
 
 .logo__img {
   width: 184px;
   height: 160px;
-  position: relative;
+  position: absolute;
   left: 10%;
   top: 51px; }
+
+.nav {
+  position: absolute;
+  right: 10%;
+  top: 51px; }
+  .nav__text {
+    text-align: left;
+    font: Bold 20px/24px Raleway;
+    letter-spacing: 0px;
+    color: #1E56A0;
+    opacity: 1; }
+  .nav__item {
+    margin: 24px;
+    display: inline; }
 
 /*# sourceMappingURL=style.css.map */
