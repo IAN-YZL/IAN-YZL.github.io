@@ -2,7 +2,7 @@ header {
   position: absolute;
   top: 0;
   left: 0;
-  display: inline; }
+  width: 100%; }
 
 .logo__img {
   width: 184px;
