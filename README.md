@@ -1,5 +1,3 @@
 This is a personal website.
 
-Font-end Technology: React.js
-
-Back-end Technology
+Font-end Technology: HTML5, CSS4, JavaScript
