@@ -39,9 +39,9 @@ header {
   max-width: 673px;
   border: 0.5px solid #1E56A0;
   opacity: 1;
-  height: 100px;
   margin: 0 auto;
-  position: relative; }
+  position: relative;
+  text-align: center; }
   .project-card__shadow {
     position: absolute;
     border-right: 2px solid #EACF79;
@@ -50,5 +50,32 @@ header {
     height: 100%;
     top: 2%;
     left: 0.5%; }
+.project__image {
+  width: 90%;
+  margin-top: 5%; }
+.project__description {
+  text-align: left;
+  width: 90%;
+  margin: 0 auto; }
+.project__title {
+  margin: 2% 0;
+  font: Bold 1.2rem Raleway;
+  color: #1E56A0; }
+.project__detail {
+  font: 1rem Raleway;
+  color: #1E56A0;
+  margin: 3% 0; }
+.project__keywords {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%; }
+  .project__keywords p {
+    font: 1rem Raleway;
+    font-weight: 600;
+    margin: 0 5% 1% 0;
+    color: #1E56A0; }
+    .project__keywords p::before {
+      content: '#';
+      color: #1E56A0; }
 
 /*# sourceMappingURL=style.css.map */
