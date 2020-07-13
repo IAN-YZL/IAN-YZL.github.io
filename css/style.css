@@ -28,13 +28,18 @@ header {
     margin: 24px;
     display: inline; }
 
-.project {
+.project-row {
   position: relative;
-  top: 120px; }
-  .project-card {
-    width: 35%;
-    max-width: 673px;
-    border: 0.5px solid #1E56A0;
-    opacity: 1; }
+  top: 120px;
+  left: 12.5%;
+  display: flex;
+  width: 75%; }
+.project-card {
+  width: 45%;
+  max-width: 673px;
+  border: 0.5px solid #1E56A0;
+  opacity: 1;
+  height: 100px;
+  margin: 0 auto; }
 
 /*# sourceMappingURL=style.css.map */
