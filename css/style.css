@@ -65,6 +65,7 @@ header {
     color: #1E56A0; }
   .project__detail {
     font: 1rem Raleway;
+    color: #1E56A0;
     margin: 3% 0; }
   .project__keywords {
     display: flex;
