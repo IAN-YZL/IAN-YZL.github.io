@@ -28,54 +28,69 @@ header {
     margin: 24px;
     display: inline; }
 
-.project-row {
+.project {
   position: relative;
-  top: 120px;
-  left: 10%;
-  display: flex;
-  width: 80%; }
-.project-card {
-  width: 45%;
-  max-width: 673px;
-  border: 0.5px solid #1E56A0;
-  opacity: 1;
-  margin: 0 auto;
-  position: relative;
-  text-align: center; }
-  .project-card__shadow {
-    position: absolute;
-    border-right: 2px solid #EACF79;
-    border-bottom: 2px solid #EACF79;
-    width: 100%;
-    height: 100%;
-    top: 2%;
-    left: 1.5%; }
-.project__image {
-  width: 90%;
-  margin-top: 5%; }
-.project__description {
-  text-align: left;
-  width: 90%;
-  margin: 0 auto; }
-.project__title {
-  margin: 2% 0;
-  font: Bold 1.2rem Raleway;
-  color: #1E56A0; }
-.project__detail {
-  font: 1rem Raleway;
-  color: #1E56A0;
-  margin: 3% 0; }
-.project__keywords {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%; }
-  .project__keywords p {
-    font: 1rem Raleway;
-    font-weight: 600;
-    margin: 0 5% 1.5% 0;
+  top: 120px; }
+  .project-row {
+    position: relative;
+    left: 10%;
+    display: flex;
+    width: 80%; }
+  .project-card {
+    width: 45%;
+    max-width: 673px;
+    border: 0.5px solid #1E56A0;
+    opacity: 1;
+    margin: 0 auto;
+    position: relative;
+    text-align: center; }
+    .project-card__shadow {
+      position: absolute;
+      border-right: 2px solid #EACF79;
+      border-bottom: 2px solid #EACF79;
+      width: 100%;
+      height: 100%;
+      top: 2%;
+      left: 1.5%; }
+  .project__image {
+    width: 90%;
+    margin-top: 5%; }
+  .project__description {
+    text-align: left;
+    width: 90%;
+    margin: 0 auto; }
+  .project__title {
+    margin: 2% 0;
+    font: Bold 1.2rem Raleway;
     color: #1E56A0; }
-    .project__keywords p::before {
-      content: '#';
+  .project__detail {
+    font: 1rem Raleway;
+    color: #1E56A0;
+    margin: 3% 0; }
+  .project__keywords {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%; }
+    .project__keywords p {
+      font: 1rem Raleway;
+      font-weight: 600;
+      margin: 0 5% 1.5% 0;
       color: #1E56A0; }
+      .project__keywords p::before {
+        content: '#';
+        color: #1E56A0; }
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center; }
+  .footer__logo {
+    width: 5%;
+    max-width: 100px;
+    min-width: 50px; }
+  .footer__text {
+    width: 100%;
+    position: relative; }
 
 /*# sourceMappingURL=style.css.map */
