@@ -65,7 +65,6 @@ header {
     color: #1E56A0; }
   .project__detail {
     font: 1rem Raleway;
-    color: #1E56A0;
     margin: 3% 0; }
   .project__keywords {
     display: flex;
@@ -81,16 +80,35 @@ header {
         color: #1E56A0; }
 
 .footer {
-  position: absolute;
-  bottom: 0;
+  position: relative;
+  top: 200px;
+  margin-top: 50px;
   width: 100%;
   text-align: center; }
   .footer__logo {
     width: 5%;
     max-width: 100px;
-    min-width: 50px; }
+    min-width: 50px;
+    margin-bottom: 10px; }
   .footer__text {
     width: 100%;
     position: relative; }
+  .footer__copyrights {
+    height: 30px;
+    background-color: #1E56A0;
+    line-height: 30px; }
+    .footer__copyrights p {
+      font-family: Arial, Helvetica, sans-serif;
+      color: white; }
+  .footer__social {
+    margin: 0 auto;
+    width: 20%;
+    display: flex; }
+    .footer__social__icon {
+      width: 33.3%; }
+      .footer__social__icon a:link {
+        color: black; }
+      .footer__social__icon a:visited {
+        color: black; }
 
 /*# sourceMappingURL=style.css.map */
