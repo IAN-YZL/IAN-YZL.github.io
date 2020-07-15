@@ -23,7 +23,8 @@ header {
     font: Bold 20px/24px Raleway;
     letter-spacing: 0px;
     color: #1E56A0;
-    opacity: 1; }
+    opacity: 1;
+    text-decoration: none; }
   .nav__item {
     margin: 24px;
     display: inline; }
