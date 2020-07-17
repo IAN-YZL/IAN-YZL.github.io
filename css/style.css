@@ -1,6 +1,7 @@
 header {
   position: relative;
-  width: 100%; }
+  width: 100%;
+  height: 140px; }
 
 .logo__img {
   width: 10%;
@@ -31,7 +32,7 @@ header {
 
 .project {
   position: relative;
-  top: 120px; }
+  margin-top: 80px; }
   .project-row {
     position: relative;
     left: 10%;
