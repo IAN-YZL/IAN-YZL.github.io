@@ -32,12 +32,12 @@ header {
 
 .project {
   position: relative;
-  margin-top: 80px; }
+  margin-top: 100px; }
   .project-row {
     position: relative;
-    left: 10%;
     display: flex;
-    width: 80%; }
+    width: 80%;
+    margin: 0 auto; }
   .project-card {
     width: 45%;
     max-width: 673px;
@@ -115,6 +115,9 @@ header {
         color: black; }
 
 .intro {
-  margin-top: 80px; }
+  margin-top: 100px; }
+  .intro__content {
+    margin: 0 auto;
+    width: 80%; }
 
 /*# sourceMappingURL=style.css.map */
